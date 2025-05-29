@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Encode+Sans:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+main{
+    background: #c9bee99a;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+main h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color: #2d2145;
+    text-align: center;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    margin: 5%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+    color: #9e60b3;
+}
+
+/*card de productos*/
+.prod-h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color: #2d2145;
+    text-align: center;
+    padding: 20px;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.item{
+    border: 4px   solid  #194945 ;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2%;
+    background-color: #9acaad;
+}
+.imagenProduc{
+    padding: 10px;
+    margin: 2%;
+    height:200px;
+    width: 220px;
+
+  
+}
+.item-p{
+    padding: 8px;
+    margin: 2%;
+}
+.precio {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+    color: #fbfdfc;
+}
+.btn{
+    align-items: center;
+    padding: 3%;
+    color: #9e60b3;
+    background-color: #194945;
+    margin-bottom: 10px ;
+}
+.btn:hover{
+    color: #56b08a;
+    background-color: #2d2145;
+    cursor: pointer;
+    
+}
+.h1Item{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    color: #9e60b3;
+}
+/* FORMULARIO*/
+
+.formulario {
+    max-width: 500px;
+    margin: 30px auto ;
+    padding: 25px;
+    background-color: #fbfdfc;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px #194945;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .f-input,
+  .f-texterea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+   
+    width: 100%;
+    box-sizing: border-box;
+    font-family:  "Bebas Neue", sans-serif; ;
+  }
+  .f-input:focus,
+  .f-texterea:focus {
+    border-color: #9e60b3;
+    outline: none;
+  }
+  .boton-form{
+    align-items: center;
+    padding: 3%;
+    color: #9e60b3;
+    background-color: #194945;
+    margin-bottom: 10px ;
+  }
+  .boton-form:hover{
+    color: #56b08a;
+    background-color: #2d2145;
+    cursor: pointer;
+    
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales a {
+    text-decoration: none;
+    color: #2d2145;
+    font-size:32px;
+    transition: color 0.3s ease;
+  }
+  
+  .redes-sociales a:hover {
+    color: #9e60b3;
+  }
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+    header img{
+        width: 150px;
+        height: 150px;
+        border-radius: 15%;
+    }
+  }
+  @media (max-width: 400px) {
+    .formulario {
+        max-width: 500px;
+        margin: 30px auto ;
+        padding: 25px;
+        background-color: #fbfdfc;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px #9e60b3;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+  }
+
